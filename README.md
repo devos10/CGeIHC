@@ -4,7 +4,7 @@ Repositorio para la entrega de documentos y prácticas del curso **CGeIHC** en l
 
 ---
 
-## 👨‍🎓 Información del estudiante
+## 👨‍🎓 Información
 | Campo         | Detalle                          |
 |---------------|----------------------------------|
 | **Nombre**    | Velázquez Caudillo Osbaldo       |
