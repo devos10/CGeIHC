@@ -281,7 +281,7 @@ int main()
 	spotLights[2] = SpotLight(
 		0.0f, 0.0f, 1.0f,   // color
 		1.0f, 2.0f,         // intensidad
-		4.0f, 1.9f, -3.6f,   // posición inicial (se actualiza cada frame)
+		4.7f, 1.35f, 6.4f,   // posición inicial (se actualiza cada frame)
 		1.0f, 0.0f, 0.0f,  // dirección inicial (hacia adelante del carro)
 		1.0f, 0.0f, 0.0f,   // atenuación
 		22.0f               // tamaño de iluminacion
