@@ -293,6 +293,7 @@ int main()
 	uniformSpecularIntensity = 0, uniformShininess = 0;
 	GLuint uniformColor = 0;
 	glm::mat4 projection = glm::perspective(45.0f, (GLfloat)mainWindow.getBufferWidth() / mainWindow.getBufferHeight(), 0.1f, 1000.0f);
+	glm::vec3 faroDir(1.0f, 0.0f, -0.05f);
 	////Loop mientras no se cierra la ventana
 	while (!mainWindow.getShouldClose())
 	{
@@ -333,7 +334,6 @@ int main()
 
 		//luz faro del carro 
 		glm::vec3 faroPos(4.7f + mainWindow.getmuevex(), 1.35f, 6.4f);
-		glm::vec3 faroDir(1.0f, 0.0f, -0.05f);
 		spotLights[2].SetFlash(faroPos, faroDir);
 
 
